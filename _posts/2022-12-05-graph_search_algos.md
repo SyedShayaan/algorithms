@@ -63,7 +63,7 @@ Time Complexity: O(b^{d+1})
 Space Complexity:
 Completense:
 Optimality: 
-![Drag Racing](/test.png)
+![Drag Racing](/_posts/test.png)
 
 
 ## Uniform Cost Search
