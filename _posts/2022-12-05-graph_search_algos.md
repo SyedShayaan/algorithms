@@ -64,6 +64,10 @@ Space Complexity:
 Completense:
 Optimality: 
 ![Drag Racing](/_posts/test.png)
+![Drag Racing](/test.png)
+![Drag Racing](test.png)
+
+
 
 
 ## Uniform Cost Search
