@@ -42,25 +42,76 @@ With dynamic environments, it is useful for the agent to improve over time, (evo
 
 
 ## Problem Formulation
-1. State Space
+1. State Space: the environment that an agent is working in 
 2. Initial State
 3. Goal state
 4. Actions
 5. Cost
 
+# Search Algorithms 
+d - branching factor: the maximum number of successors that exiting a node 
 
-This webpage will discuss the following graph search algorithms alongside their code implementation:
-1. [Breath First Search](#breath-first-search)
-2. Depth Fist Search
-3. Uniform Cost Search Greedy Search 
-4. Greedy Search
-5. A* 
-6. Greedy A* 
-6. Curvy A*
+**4 properties of search algorithms** 
+- Completeness: Is the algorithm garenteed to find a solution 
+- Optimality: Is the algorithm garenteed to find the best (shortest) path to the goal
+- Time Complexity: How many nodes are generated/ how many computations are computed 
+- Space Complexity: The memory used to store the all nodes
+
+## Breath first search
+- Search the tree layer by layer (FIFO)
+Time Complexity: O(b^{d+1}) 
+Space Complexity:
+Completense:
+Optimality: 
+![Drag Racing](test.png)
 
 
-# Breath first search
+## Uniform Cost Search
+- Put nodes in fringe and sort them, then pick node with lowest cost to expand
+Time Complexity: 
+Space Complexity:
+Completense:
+Optimality: 
+
+## Depth First Search
+- Deep first (FILO)
+Time Complexity: 
+Space Complexity:
+Completense:
+Optimality: 
+
+## Depth Limited Search
+- Limit the depth of the tree 
+Time Complexity: 
+Space Complexity:
+Completense:
+Optimality: 
+
+## Iterative Deepening Search
+- Iterativly increase the depth of the tree
+Time Complexity: 
+Space Complexity:
+Completense:
+Optimality: 
+
+## Best First Search
+- Limit the depth of the tree 
+Time Complexity: 
+Space Complexity:
+Completense:
+Optimality: 
 
 
+## Greedy Search
+- Limit the depth of the tree 
+Time Complexity: 
+Space Complexity:
+Completense:
+Optimality: 
 
-
+## A* Search
+- Limit the depth of the tree 
+Time Complexity: 
+Space Complexity:
+Completense:
+Optimality: 
